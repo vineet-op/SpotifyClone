@@ -33,7 +33,7 @@ let songs = [
   {
     songName: "Naruto - BLUE BIRD",
     filePath: "songs/5.mp3",
-    coverPath: "cover/cover5.jpg",
+    coverPath: "cover/Cover5.jpg",
   },
   {
     songName: "Tokyo Revengers - CRY BABY",
