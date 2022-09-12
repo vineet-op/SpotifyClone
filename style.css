@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap");
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.Brand img {
+  width: 80px;
+  height: 80px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  min-height: 70vh;
+  background-color: black;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  margin: 20px auto;
+  width: 70%;
+  border-radius: 10px;
+  padding: 32px;
+  background-image: url("bgc1.jpg");
+  background-size: contain;
+}
+
+nav {
+  font-family: "Ubuntu", sans-serif;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 80px;
+  background-color: black;
+  color: white;
+}
+
+nav ul li {
+  padding: 0px 12px;
+}
+
+.Brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+.bottom {
+  position: sticky;
+  bottom: 0;
+  height: 100px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icons {
+  margin-top: 10px;
+}
+
+.icons i {
+  cursor: pointer;
+}
+
+#myProgressBar {
+  width: 80vw;
+  cursor: pointer;
+}
+
+.songitemContainer {
+  margin-top: 34px;
+}
+
+.songitem {
+  display: flex;
+  height: 50px;
+  background-color: white;
+  width: 150%;
+  color: black;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.songitem img {
+  width: 50px;
+  border-radius: 30px;
+}
+
+.timestamp {
+  margin: 0px 23px;
+}
+
+.timestamp i {
+  cursor: pointer;
+}
+
+.songinfo {
+  position: absolute;
+  left: 10vw;
+  font-family: "Varela Round", sans-serif;
+}
+
+.songinfo img {
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
+
+@media only screen and (max-width: 1100px) {
+  body {
+    background-color: rgba(30 215 96);
+
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .songitem {
+    width: 100%;
+
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .icons {
+    margin-top: 37px;
+    
+  }
+}
