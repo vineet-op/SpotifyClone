@@ -15,4 +15,4 @@ Setup <br>
 To run this project, simply clone the repository and open the index.html file in your browser.<p><br>
 
 <h1> View Project </h1>
-
+https://vineet-op.github.io/SpotifyClone/
